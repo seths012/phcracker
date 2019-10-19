@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script Modified by Badbox
 
 #Check Curl
 if [ ! -e /usr/bin/curl ]; then
@@ -19,8 +19,8 @@ echo "Connecting to Server..."
 sleep 0.4
 echo "Checking Permision..."
 sleep 0.3
-CEK=FordSenpai
-if [ "$CEK" != "FordSenpai" ]; then
+CEK=Badbox
+if [ "$CEK" != "Badbox" ]; then
 		echo -e "${red}Permission Denied!${NC}";
         echo $CEK;
         exit 0;
