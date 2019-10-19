@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Script Created by John Ford Sangalang <exodia090@gmail.com>
+# Script Modified by Badbox <www.phcracker.net>
 
 # extract ip address
 if [ -z "$1" ]; then
@@ -172,7 +172,7 @@ cat > /etc/squid/squid.conf <<-END
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl SSL_ports port 443
-acl Safe_ports port 80
+acl Safe_ports port 88
 acl Safe_ports port 21
 acl Safe_ports port 443
 acl Safe_ports port 70
@@ -298,15 +298,15 @@ useradd openvpn
 echo "openvpn:fordsenpai" | chpasswd
 clear
 echo "######### Download your config files here! #########"
-echo "~> http://$IPADDRESS/openvpn.ovpn - Normal config"
-echo "~> http://$IPADDRESS/openvpnssl.ovpn - Config with stunnel"
-echo "~> http://$IPADDRESS/stunnel.conf - Stunnel config file"
-echo "~> http://$IPADDRESS/openvpn.tgz - All config"
+echo "~> http://$IPADDRESS:88/openvpn.ovpn - Normal config"
+echo "~> http://$IPADDRESS:88/openvpnssl.ovpn - Config with stunnel"
+echo "~> http://$IPADDRESS:88/stunnel.conf - Stunnel config file"
+echo "~> http://$IPADDRESS:88/openvpn.tgz - All config"
 echo "######### Download your config files here! #########"
 echo
 echo "################# OpenVPN Account ##################"
 echo "~> Username: openvpn"
-echo "~> Password: fordsenpai"
+echo "~> Password: badbox"
 echo "################# OpenVPN Account ##################"
 echo
 echo "######### To Add OpenVPN User Account ##############"
