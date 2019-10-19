@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script by Badbox
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
@@ -8,8 +8,8 @@ echo "Connecting to Server..."
 sleep 0.4
 echo "Checking Permision..."
 sleep 0.3
-CEK=FordSenpai
-if [ "$CEK" != "FordSenpai" ]; then
+CEK=Badbox
+if [ "$CEK" != "Badbox" ]; then
 		echo -e "${red}Permission Denied!${NC}";
         echo $CEK;
         exit 0;
@@ -38,7 +38,7 @@ echo "   OpenVPN SSL    : 587"
 echo "   Stunnel        : 444"
 echo "   Dropbear       : 443"
 echo "   Squid Proxy    : 3355, 8085"
-echo "   OpenVPN Config : http://$IP/configs.zip"
+echo "   OpenVPN Config : http://$IP:88/configs.zip"
 echo "   Until On       : $(date -d "$aktif days" +"%d-%m-%Y")"
   echo "----------------------------------"
 for (( i=1; i <= $banyakuser; i++ ))
