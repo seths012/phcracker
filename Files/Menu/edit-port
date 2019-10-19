@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script Modified by Badbox
 
 if [[ $USER != 'root' ]]; then
 	echo "Oops! root privileges needed"
