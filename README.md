@@ -1,7 +1,7 @@
 <h1 align="center"> VPN AutoScript Debian Stretch<img src="https://img.shields.io/badge/Version-2.1-blue.svg"></h1>
 
 <p align="center">VPN AutoScript is made by Badbox to minimize the time consumed and user involvement in setting up your VPS</p>
-<p align="center">[Donations] GCASH: 09099027322 WEBSITE: www.phcracker.net FACEBOOK: http://facebook.com/phcracker.net</p>
+<p align="center">[Donations] Donation: <center><a href="https://www.phcracker.net/dbtech-donate/drives/1/donate" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Donate Here</b></font> </a></center> WEBSITE: www.phcracker.net FACEBOOK: http://facebook.com/phcracker.net</p>
 
 <h3 align="center">Supported Linux Distribution</h3>
 <p align="center">
