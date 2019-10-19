@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script Modified by Badbox
 
 if [[ -e /etc/debian_version ]]; then
 	OS=debian
@@ -17,7 +17,7 @@ color1='\e[031;1m'
 color2='\e[34;1m'
 color3='\e[0m'
 echo "--------------- Welcome To Premium Script Menu ---------------"
-	echo "----------------- Script by FordSenpai --------------------"
+	echo "----------------- Script by Badbox --------------------"
 	echo " "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
@@ -203,7 +203,7 @@ diagnosa
 elif test $x -eq 44; then
 echo " "
 echo "Goodbye Menu!"
-echo "Modified by FordSenpai"
+echo "Modified by Badbox"
 echo " "
 exit
 elif test $x -eq 45; then
