@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script Modified by Badbox
 
 MYIP=$(wget -qO- ipv4.icanhazip.com)
 if [ $MYIP = "" ]; then
@@ -22,8 +22,8 @@ echo "Dropbear    : 442"
 echo "Squid3      : 3355, 8085 (limit to IP VPS)"  
 echo "PPTP VPN    : 1723" 
 echo "Badvpn      : badvpn-udpgw port 7300"  
-echo "Nginx       : 80"  
-echo "Configs     : http://$MYIP/configs.zip)"
+echo "Nginx       : 88"  
+echo "Configs     : http://$MYIP:88/configs.zip)"
 echo ""  
 echo "-----"
 echo "TOOLS"  
@@ -52,6 +52,6 @@ echo "DDflate  : [ON]"
 echo "IPv6     : [OFF]"  
 echo "" 
 echo "==========================================="
-echo "---------- Created by FordSenpai ----------"
+echo "------- Created Modified by Badbox --------"
 echo "-------------------------------------------"
 echo " "
