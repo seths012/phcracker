@@ -1,6 +1,6 @@
 #!/bin/bash
 #Licensed to https://www.hostingtermurah.net/
-#Script by FordSenpai
+#Script by Badbox
 
 red='\e[1;31m'
 green='\e[0;32m'
@@ -10,8 +10,8 @@ echo "Connecting to Server..."
 sleep 0.5
 echo "Checking Permision..."
 sleep 0.4
-CEK=FordSenpai
-if [ "$CEK" != "FordSenpai" ]; then
+CEK=Badbox
+if [ "$CEK" != "Badbox" ]; then
 		echo -e "${red}Permission Denied!${NC}";
         echo $CEK;
         exit 0;
