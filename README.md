@@ -1,9 +1,10 @@
 <h1 align="center"> VPN AutoScript Debian Stretch<img src="https://img.shields.io/badge/Version-2.1-blue.svg"></h1>
 
 <p align="center">VPN AutoScript is made by Badbox to minimize the time consumed and user involvement in setting up your VPS</p>
-<p align="center">[Donations] Donation: <center><a href="https://www.phcracker.net/dbtech-donate/drives/1/donate" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Donate Here</b></font> </a></center> 
-<center><a href="https://www.phcracker.net" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Forum </b></font> </a></center>
-<center><a href="https://www.facebook.com/phcracker.net" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Facebook</b></font> </a></center>
+<p align="center">[Donations] Donation: </p>
+<p <center><a href="https://www.phcracker.net/dbtech-donate/drives/1/donate" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Donate Here</b></font> </a></center> </p> 
+<p <center><a href="https://www.phcracker.net" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Forum </b></font> </a></center> </p>
+<p <center><a href="https://www.facebook.com/phcracker.net" class="btn btn-block btn-danger btn-lg"> <font color="#FF0000"><b>Facebook</b></font> </a></center> </p>
 
 <h3 align="center">Supported Linux Distribution</h3>
 <p align="center">
