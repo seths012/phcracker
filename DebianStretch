@@ -1,10 +1,6 @@
 #!/bin/sh
 #Script Modified by SETHS
 
-wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg|apt-key add -
-sleep 2
-echo "deb http://build.openvpn.net/debian/openvpn/release/2.4 stretch main" > /etc/apt/sources.list.d/openvpn-aptrepo.list
-
 #Requirement
 apt update
 apt upgrade -y
@@ -400,6 +396,6 @@ echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-in
 echo ""  | tee -a log-install.txt
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo ""
-echo "------------------------------ Script Modified by SETHS -----------------------------"
+echo "------------------------------ Script Modified by SETH -----------------------------"
 echo "-----Please Reboot your VPS -----"
 sleep 5
