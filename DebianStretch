@@ -396,6 +396,6 @@ echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-in
 echo ""  | tee -a log-install.txt
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo ""
-echo "------------------------------ Script Modified by SETH -----------------------------"
+echo "------------------------------ Script Modified by SETHS -----------------------------"
 echo "-----Please Reboot your VPS -----"
 sleep 5
